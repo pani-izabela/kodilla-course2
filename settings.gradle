@@ -1,3 +1,4 @@
 rootProject.name = 'kodilla-course2'
 include 'kodilla-testing-modul6'
+include 'kodilla-stream-modul7'
 

@@ -25,6 +25,9 @@ repositories {
 
 
 dependencies {
-    implementation('org.springframework.boot:spring-boot-starter-web')
+    //External dependencies
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.141.5'
+    //Test dependencies
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testCompile group: 'junit', name:'junit', version:'4.12'
 }
